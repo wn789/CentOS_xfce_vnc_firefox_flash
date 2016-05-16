@@ -3,7 +3,7 @@
 yum -y install tigervnc-server
 vncserver
 
-wget http://iwanc.googlecode.com/svn/trunk/x86_64/epel-release-6-8.noarch.rpm &&
+wget https://raw.githubusercontent.com/pzwl/CentOS64_xfce_vnc/master/x64/epel-release-6-8.noarch.rpm &&
 rpm -ivh epel-release-6-8.noarch.rpm
 yum search xfce 
 yum groupinfo xfce 
@@ -11,7 +11,7 @@ yum -y groupinstall xfce
 
 yum -y groupinstall chinese-support
 yum -y install firefox
-wget http://iwanc.googlecode.com/svn/trunk/x86_64/libflashplayer.so
+wget https://raw.githubusercontent.com/pzwl/CentOS64_xfce_vnc/master/x64/libflashplayer.so
 mkdir -p ~/.mozilla/plugins/
 mv libflashplayer.so ~/.mozilla/plugins/
 
