@@ -5,9 +5,12 @@
 附加：file /sbin/init 或者 getconf -a 均可查看系统是多少位的。
 
 2.1 32 位系统
+
 wget https://raw.githubusercontent.com/pzwl/CentOS64_xfce_vnc/master/x86/CentOS64_xfce_vnc.sh
+
 sh CentOS32_xfce_vnc.sh
 
 2.2 64 位系统
 wget https://raw.githubusercontent.com/pzwl/CentOS64_xfce_vnc/master/x64/CentOS64_xfce_vnc.sh
+
 sh CentOS64_xfce_vnc.sh
