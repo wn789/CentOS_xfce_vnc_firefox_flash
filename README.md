@@ -1,4 +1,4 @@
-# CentOS64_xfce_vnc
+# CentOS_xfce_vnc_firefox_flash
 1、查看LINUX操作系统是多少位的和版本
 首先执行命令：cat /etc/redhat-release 和 getconf LONG_BIT，查看一下你的Linux版本和系统位数。
 另外，也可以通过命令：uname -a 查看详细信息
