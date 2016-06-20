@@ -6,7 +6,7 @@
 
 2.1 32 位系统
 
-wget https://raw.githubusercontent.com/pzwl/CentOS_xfce_vnc_firefox_flash/master/x86/CentOS64_xfce_vnc.sh
+wget https://raw.githubusercontent.com/pzwl/CentOS_xfce_vnc_firefox_flash/master/x86/CentOS32_xfce_vnc.sh
 
 sh CentOS32_xfce_vnc.sh
 
